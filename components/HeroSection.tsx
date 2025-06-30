@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const HeroSection: React.FC = () => {
@@ -21,6 +20,16 @@ const HeroSection: React.FC = () => {
         <p className="text-lg sm:text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed drop-shadow-sm">
           A chave para mitigar as mudanças climáticas e proteger o nosso planeta para as futuras gerações.
         </p>
+        <div className="mt-8">
+          <a
+            href="https://marianasilva028.itch.io/cards-c"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-yellow-400 text-gray-800 font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-yellow-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-yellow-500 focus:ring-gray-800 transition duration-300 transform hover:scale-105"
+          >
+            Clique Neste Botão e Tenha Acesso ao Nosso Jogo
+          </a>
+        </div>
       </div>
     </div>
   );

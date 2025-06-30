@@ -1,7 +1,7 @@
-
 import React from 'react';
 import HeroSection from './components/HeroSection';
 import IntroductionSection from './components/IntroductionSection';
+import GameDescriptionSection from './components/GameDescriptionSection';
 import MeasuresSection from './components/MeasuresSection';
 import ConsequencesSection from './components/ConsequencesSection';
 import CallToActionSection from './components/CallToActionSection';
@@ -19,6 +19,7 @@ const App: React.FC = () => {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-1">
                   <a href="#introducao" className="text-gray-700 hover:bg-green-100 hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">Introdução</a>
+                  <a href="#jogo" className="text-gray-700 hover:bg-green-100 hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">O Jogo</a>
                   <a href="#medidas" className="text-gray-700 hover:bg-green-100 hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">Medidas</a>
                   <a href="#consequencias" className="text-gray-700 hover:bg-green-100 hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">Consequências</a>
                   <a href="#acao" className="text-gray-700 hover:bg-green-100 hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">Ação</a>
@@ -33,6 +34,7 @@ const App: React.FC = () => {
       <main className="flex-grow pt-16"> {/* Padding-top for fixed navbar */}
         <HeroSection />
         <IntroductionSection />
+        <GameDescriptionSection />
         <MeasuresSection />
         <ConsequencesSection />
         <CallToActionSection />
